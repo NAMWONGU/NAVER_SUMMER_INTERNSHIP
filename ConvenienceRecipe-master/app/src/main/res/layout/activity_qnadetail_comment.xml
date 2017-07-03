@@ -1,0 +1,49 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/include_qnacomment"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:background="@color/pink"
+            android:layout_alignParentBottom="true">
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/round">
+                <EditText
+                    android:id="@+id/comment_edit"
+                    android:hint="댓글을 입력하세요"
+                    android:inputType="textMultiLine"
+                    android:maxLines="4"
+                    android:textSize="15dp"
+                    android:layout_width="290dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@null" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/comment_input_btn"
+                android:layout_width="64dp"
+                android:layout_height="48dp"
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:text="등록"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

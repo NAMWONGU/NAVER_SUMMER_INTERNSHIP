@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login_icon"
+        android:layout_marginTop="138dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:layout_marginTop="128dp"
+        android:id="@+id/nicknamesetting"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:hint="닉네임설정"
+        android:textSize="17dp"
+        android:textColorHint="@color/pink"/>
+    <ImageView
+        android:id="@+id/start_login"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bt_login_start_2"/>
+</LinearLayout>

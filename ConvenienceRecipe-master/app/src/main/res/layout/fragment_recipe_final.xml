@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/recipe_detail_final"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+
+        android:layout_gravity="right|bottom"
+        android:id="@+id/floating_action_menu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        app:menu_colorNormal="@color/pink"
+        app:menu_colorPressed="@color/pink"
+        fab:menu_animationDelayPerItem="55"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_colorRipple="#99d4d4d4"
+        fab:menu_fab_label="Floating Action Menu"
+        fab:menu_fab_size="60dp"
+        android:src="@drawable/gallery33"
+        fab:menu_openDirection="up"
+        fab:menu_shadowColor="#66aff198"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="4dp"
+        fab:menu_showShadow="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/action_menu_item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/recipe_scrap"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="@color/white"
+            fab:fab_size="60dp" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/action_menu_item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comment"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="@color/white"
+            fab:fab_size="60dp" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

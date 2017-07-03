@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="android-crop-1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/6944907fafb9d14a3c836fc8f5958dad0ef65d1f/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/6944907fafb9d14a3c836fc8f5958dad0ef65d1f/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

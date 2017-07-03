@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.conveniencerecipe.RecipeActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_back"
+            android:layout_centerVertical="true"
+            android:onClick="backClick"/>
+        <TextView
+            android:id="@+id/recipe_title"
+            android:layout_toRightOf="@id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:id="@+id/recipe_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/image_recipe_like_red"
+            android:layout_gravity="center"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/final_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/pink">
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="2016.08.08"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal|bottom"/>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/recipe_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

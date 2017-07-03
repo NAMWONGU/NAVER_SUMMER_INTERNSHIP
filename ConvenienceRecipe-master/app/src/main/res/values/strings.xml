@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">편의점을부탁해</string>
+    <string name="main_name">너와나의레시피</string>
+    <string name="notice_name">알림</string>
+    <string name="mypage_name">마이페이지</string>
+    <string name="search_name">검색</string>
+    <string name="theme_name">테마별</string>
+
+
+
+
+    <string name="TransitionName">TransitionName</string>
+    <string name="girls_generaiton_result">결과</string>
+    <string name="girl_generation_title">제목</string>
+    <string name="girls_generaiton_sta">아니 이게 뭐죠</string>
+    <string name="one">ONE</string>
+    <string name="two">TWO</string>
+    <string name="three">THREE</string>
+    <string name="hint">재료를 입력해주세요</string>
+</resources>

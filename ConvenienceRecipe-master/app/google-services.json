@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "196112634953",
+    "firebase_url": "https://conveniencerecipe-8ecce.firebaseio.com",
+    "project_id": "conveniencerecipe-8ecce",
+    "storage_bucket": "conveniencerecipe-8ecce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196112634953:android:2a3b459cf043766f",
+        "android_client_info": {
+          "package_name": "com.conveniencerecipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196112634953-324gu85hkacbo7ag1e968g6dtan4n9nb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5RrBrU2BWJm7rUbRt1cstXJox1qaGMLQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

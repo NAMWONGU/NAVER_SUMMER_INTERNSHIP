@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_array_item">
+        <item>이렇게 싸게?!</item>
+        <item>편의점도 럭셔리하게</item>
+        <item>우울한 날</item>
+        <item>우중충 비오는 날</item>
+        <item>오늘 하늘 맑음</item>
+        <item>스트레스 만땅</item>
+    </string-array>
+</resources>
